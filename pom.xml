@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.jenkins-ci.plugins</groupId>
         <artifactId>plugin</artifactId>
-        <version>5.28</version>
+        <version>6.2138.v03274d462c13</version>
         <relativePath/>
     </parent>
     <groupId>io.jenkins.plugins</groupId>
@@ -19,6 +19,8 @@
         <jenkins.baseline>2.479</jenkins.baseline>
         <jenkins.version>${jenkins.baseline}.3</jenkins.version>
         <gitHubRepo>jenkinsci/${project.artifactId}-plugin</gitHubRepo>
+        <hpi.bundledArtifacts>jjwt-api,jjwt-impl,jjwt-jackson</hpi.bundledArtifacts>
+        <hpi.strictBundledArtifacts>true</hpi.strictBundledArtifacts>
     </properties>
     <name>Java JSON Web Token (JJWT) Plugin</name>
     <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
