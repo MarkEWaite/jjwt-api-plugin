@@ -2,6 +2,9 @@ version: 2
 updates:
 - package-ecosystem: maven
   directory: "/"
+  ignore:
+  # TODO until 1.0 and supposedly compatible API changes going forward
+  - dependency-name: io.jsonwebtoken:jjwt-api
   schedule:
     interval: monthly
   open-pull-requests-limit: 10
