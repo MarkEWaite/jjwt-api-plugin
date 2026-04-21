@@ -3,7 +3,7 @@ updates:
 - package-ecosystem: maven
   directory: "/"
   ignore:
-  # TODO https://github.com/jenkinsci/jjwt-api-plugin/pull/94#pullrequestreview-2298476849
+  # TODO until 1.0 and supposedly compatible API changes going forward
   - dependency-name: io.jsonwebtoken:jjwt-api
   schedule:
     interval: monthly
